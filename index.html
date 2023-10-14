@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style> 
+
+        h3, h2{text-align:center;
+            color:rgb(6, 1, 1);
+            text-decoration: underline;}
+        table{
+            text-align: center;
+            margin: 0px auto;
+            
+        }
+        th{
+            color:rgb(51, 75, 104);
+        }
+        body{
+            background-color: rgb(236, 229, 226);
+        }
+        hr{
+            border: 1px solid black;
+        }
+        
+        </style> 
+</head>
+<body>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+        <h2>INDEX</h2>
+        <br>
+        <h3>REACT TASKS:</h3>
+        <table border="1" bordercolor="black" border-collapse="collapse" cellpadding="10" style="width:70%" text-align="center">
+            <tbody><tr>
+                <th>TASKS NO.</th>
+                <th>GITHUB REPOSITORY LINK</th>
+                <th>DEPLOYMENT LINK</th>
+            </tr>
+            <tr>
+                <td>TASK 1</td>
+                <td><a href="https://github.com/prernatripathy21/mern-reactjs1" target="_blank">https://github.com/prernatripathy21/mern-reactjs1
+                </a></td>
+                <td><a href="https://mern-reactjs1.vercel.app/" target="_blank"> https://mern-reactjs1.vercel.app/</a></td>
+            </tr>
+            <tr>
+                <td>TASK 2</td>
+                <td><a href="https://github.com/prernatripathy21/mern-reactjs2" target="_blank"> https://github.com/prernatripathy21/mern-reactjs2
+                </a></td>
+                <td><a href="https://mern-reactjs2.vercel.app/" target="_blank"> https://mern-reactjs2.vercel.app/</a></td>
+            </tr>
+            <tr>
+                <td>TASK 3</td>
+                <td><a href="https://github.com/prernatripathy21/mern-reactjs3" target="_blank"> https://github.com/prernatripathy21/mern-reactjs3
+                </a></td>
+                <td><a href="https://mern-reactjs3.vercel.app/" target="_blank"> https://mern-reactjs3.vercel.app/</a></td>
+            </tr>
+            <tr>
+                <td>TASK 4</td>
+                <td><a href="https://github.com/prernatripathy21/mern-reactjs4" target="_blank"> https://github.com/prernatripathy21/mern-reactjs4 
+                </a></td>
+                <td><a href="https://mern-reactjs4.vercel.app/" target="_blank"> https://mern-reactjs4.vercel.app/</a></td>
+            </tr>
+            <tr>
+                <td>TASK 5</td>
+                <td><a href="https://github.com/prernatripathy21/mern-reactjs5" target="_blank"> https://github.com/prernatripathy21/mern-reactjs5
+                </a></td>
+                <td><a href="https://mern-reactjs5.vercel.app/" target="_blank"> https://mern-reactjs5.vercel.app/</a></td>
+            </tr>
+            <tr>
+                <td>TASK 6</td>
+                <td><a href="https://github.com/prernatripathy21/mern-reactjs6" target="_blank"> https://github.com/prernatripathy21/mern-reactjs6
+                </a></td>
+                <td><a href="https://github.com/prernatripathy21/mern-reactjs6" target="_blank"> https://mern-reactjs6.vercel.app/</a></td>
+            </tr>
+            </tbody></table>
+    <!-- Code inject--></body></html>
